@@ -9,7 +9,11 @@ export default {
     "./app.vue",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'PJS': ["Plus Jakarta Sans"],
+      },
+    },
   },
   plugins: [],
 };

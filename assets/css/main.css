@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+    @apply py-2 px-5 rounded-md cursor-pointer font-semibold;
+}
+
+.btn-primary {
+    @apply bg-[#3563E9] text-white;
+}
+
+.btn-primary:hover {
+    @apply hover:bg-[#345dd6] hover:shadow-md;
+}
+.btn-secondary {
+ @apply bg-[#54a6ff];
+}
+
+.btn-secondary:hover {
+    @apply hover:bg-[#4590e0] hover:shadow-md;
+}
